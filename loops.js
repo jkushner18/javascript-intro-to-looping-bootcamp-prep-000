@@ -24,6 +24,6 @@ while(n>0){
   
 console.log(n--);
 
-return "done"
+if (n=0) {return "done"}
 
 }}
