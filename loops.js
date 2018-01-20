@@ -28,12 +28,12 @@ if(n===0){return "done"}
 
 }
 
-
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
 
 function doWhile(array){
   
+do{return array
   
-  
-  
-  
-}
+} while(maybeTrue() && array.length>0) }
